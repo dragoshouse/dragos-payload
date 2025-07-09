@@ -1,0 +1,15 @@
+{
+  "name": "dragos-payload",
+  "version": "1.0.0",
+  "description": "Clean Payload CMS setup",
+  "type": "module",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "payload": "^3.46.0",
+    "@payloadcms/db-sqlite": "^3.46.0",
+    "express": "^5.1.0",
+    "dotenv": "^17.1.0"
+  }
+}
